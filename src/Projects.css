@@ -1,0 +1,64 @@
+/* Projects.css */
+.projects-container {
+  width: 100%;
+  padding: 50px 0;
+  background:  #F0F2F5 ;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3D52A0;
+  margin-bottom: 20px;
+}
+
+.project-items {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-item {
+  width: 100%;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  color: #3D52A0;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.project-item a {
+  text-decoration: none; 
+  color: #3D52A0;
+}
+
+.project-card .github-icon {
+  font-size: 24px;
+  color: #3D52A0;
+}

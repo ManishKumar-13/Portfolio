@@ -1,0 +1,39 @@
+/* ContactMe.css */
+.contact-container {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #7091E6;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF; /* Text color */
+}
+
+.contact-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info span {
+  margin-right: 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #3D52A0; /* Link color */
+  text-decoration: none; /* Remove underline from anchor tags */
+}
+
+.social-links a:hover {
+  color: #FFFFFF; /* Hover color */
+}

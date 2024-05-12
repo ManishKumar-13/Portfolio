@@ -1,0 +1,37 @@
+/* AboutMe.css */
+.about-container {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #F0F2F5 ;
+    font-family: 'Poppins', sans-serif;
+    color: #333333 ;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .code-gif {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 0 20px;
+    max-width: 600px;
+  }
+  
+  .highlight {
+    color: #3D52A0;
+    font-weight: bold;
+  }
+  

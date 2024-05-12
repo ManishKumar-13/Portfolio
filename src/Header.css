@@ -1,0 +1,29 @@
+/* Header.css */
+.header-container {
+  background-color: #ffffff; /* Light background color */
+  padding: 20px; 
+  position: fixed;
+  top: 3px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  color: #3d52a0;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #7091e6;
+}
